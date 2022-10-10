@@ -1,10 +1,10 @@
 #ifndef SIGNFORM_H
 #define SIGNFORM_H
 
+#include <pch.h>
 #include <QWidget>
 #include <QShowEvent>
 #include <Drawer/StrokeDrawer.h>
-#include <QtTool_global.h>
 #include <QVBoxLayout>
 namespace Ui {
     class SignForm;

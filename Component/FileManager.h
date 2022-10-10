@@ -3,7 +3,6 @@
 #include <QString>
 #include "Models/StrokeModel.hpp"
 #include <QList>
-#include <QtTool_global.h>
 #include <Form/SignForm.h>
 class FileManager
 {   

@@ -46,7 +46,8 @@ HEADERS += \
     Drawer/StrokeDrawer.h \
     Form/SignForm.h \
     Component/FileManager.h \
-    Form/MainForm.h
+    Form/MainForm.h \
+    pch.h
 
 
 FORMS += \
@@ -64,7 +65,7 @@ DEPENDPATH += $$PWD/../QtTool/Include
 
 
 #在此修改宏以决定不同的链接
-DEFINES += MIPS
+DEFINES += WIN
 
 
 contains(DEFINES,MIPS){
@@ -83,7 +84,16 @@ unix:!macx: LIBS += -L$$PWD/lib/x86/ -lQtTool
 unix:!macx: PRE_TARGETDEPS += $$PWD/lib/x86/libQtTool.a
 }
 
+contains(DEFINES,WIN){
+#SDK动态链接库
+LIBS += -L$$PWD/SDK/WIN/ -lTQLComm
+#工具静态链接库
+win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/lib/WIN/ -libQtTool
+}
+
 RESOURCES += \
     resource.qrc
+
+
 
 
