@@ -5,8 +5,6 @@
 
 ![QT](https://img.shields.io/badge/QT-5.6.1-01cc33)
 ![Kylin-OS](https://img.shields.io/badge/Kylin--OS-10.0-ff0000)
-![LongArch-3A4000](https://img.shields.io/badge/LongArch-3A4000-ff6600)
-![架构-MIPS](https://img.shields.io/badge/架构-MIPS-bb33ff)
 ![语言-C++11](https://img.shields.io/badge/Lang-C++11-00aaff)
 ![SDK](https://img.shields.io/badge/SDK-1.0.0-ff22ff)
 ![QtTool](https://img.shields.io/badge/QtTool-1.0.0-00ccaa)
