@@ -20,9 +20,7 @@
 一个精简的基架
 
 ## 预览一下
-<img src="./.docs/MainView.png" width=700>
-<img src="./.docs/SignView.png" width=350>
-<img src="./.docs/SignViewDrawed.png" width=350>
+<img src="./.docs/MainView.png" width=700><img src="./.docs/SignView.png" width=350><img src="./.docs/SignViewDrawed.png" width=350>
 
 
 ---
