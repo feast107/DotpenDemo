@@ -10,9 +10,7 @@
 ![QtTool](https://img.shields.io/badge/QtTool-1.0.0-00ccaa)
 
 ---
-<img src="https://www.qt.io/hubfs/qt-design-system/assets/logos/qt-logo.svg"  height=50 alt="QT"/> 
-<img src="https://www.kylinos.cn/static/pc/new/images/logo.png" margin="0" height=50  alt="QT"/>
-<img src="https://tqloss.oss-cn-beijing.aliyuncs.com/tqltech/config/LOGO%20%E5%AE%98%E7%BD%91.png" height = 50 alt="腾千里" >
+<img src="https://www.qt.io/hubfs/qt-design-system/assets/logos/qt-logo.svg" height=50 alt="QT"/> <img src="https://www.kylinos.cn/static/pc/new/images/logo.png" margin="0" height=50  alt="QT"/> <img src="https://tqloss.oss-cn-beijing.aliyuncs.com/tqltech/config/LOGO%20%E5%AE%98%E7%BD%91.png" height=50 alt="腾千里" >
 
 ---
 
