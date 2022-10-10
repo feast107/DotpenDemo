@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/Icon/clear.svg</file>
+        <file>Resource/Icon/submit.svg</file>
+        <file>Resource/Image/boardsign.png</file>
+        <file>Resource/Icon/logo.png</file>
+        <file>Resource/Icon/erase.svg</file>
+        <file>Resource/Icon/bin.svg</file>
+        <file>Resource/Icon/delete-fill.svg</file>
+        <file>Resource/Icon/delete.svg</file>
+        <file>Resource/Icon/addpage.svg</file>
+        <file>Resource/Icon/delete-pressed.svg</file>
+        <file>Resource/Icon/check.svg</file>
+        <file>Resource/Icon/alert.svg</file>
+    </qresource>
+</RCC>
