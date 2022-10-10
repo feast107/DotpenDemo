@@ -71,6 +71,13 @@ PRE_TARGETDEPS += {...}/ -libQtTool //静态
 ```
 ---
 ## 关于构建
+
+在 `PaperSign.pro` 文件中通过修改 `DEFINES` 来更改对不同架构的SDK引用
+
+``` qt
+DEFINES += MIPS/x86 ...
+```
+
 前置条件，安装以下的库
 
 ``` sh
