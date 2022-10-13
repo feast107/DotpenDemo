@@ -109,7 +109,7 @@
 
     ``` c
     DEB
-    |-- papersign
+    |-- dotpen
         |-- DEBIAN //打包描述文件目录
         |   |-- control
         |   |-- postinst
@@ -119,20 +119,20 @@
         |           |-- dotpen.rules
         |-- opt //应用程序目录
         |   |-- zbform
-        |       |-- PaperSign
-        |           |-- PaperSign
+        |       |-- Dotpen
+        |           |-- Dotpen
         |-- usr 
             |-- lib //动态库目录
             |   |-- *.so ...
             |-- share 
                 |-- applications //快捷方式目录
-                |   |-- papersign.desktop
+                |   |-- dotpen.desktop
                 |-- icons // 应用图标目录
                     |-- zbform
-                        |-- PaperSign
+                        |-- Dotpen
                             | -- logo.png
     ```
-    进入`DEB/papersign`目录
+    进入`DEB/dotpen`目录
     ``` 
     dpkg -b ../ papersign_{version}_{arch}.deb
     ```
