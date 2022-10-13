@@ -65,7 +65,7 @@ DEPENDPATH += $$PWD/../QtTool/Include
 
 
 #在此修改宏以决定不同的链接
-DEFINES += WIN
+DEFINES += x86
 
 
 contains(DEFINES,MIPS){

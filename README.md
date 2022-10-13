@@ -45,7 +45,7 @@
 ---
 + ## 外部导入
 
-   ### 本项目引用了外部项目 [QtTool](https://github.com/feast107/QTTool)   
+    ### 本项目引用了外部项目 [QtTool](https://github.com/feast107/QTTool)   
 
     构建之后将项目下的 `Include` 目录添加到 `DotpenDemo.pro` 项目文件中   
 
