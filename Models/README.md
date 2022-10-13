@@ -12,10 +12,29 @@
 # 文件
 
 ## [ResponseModel](ResponseModel.hpp)
-
+``` json
+{
+    "code":0,
+    "data":{},
+    "msg":""
+}
+```
 ## [StrokeModel](./StrokeModel.hpp)
-
+``` json
+{
+    "c":0,
+    "t":0,
+    "d":0,
+    "n":0,
+    "p":""
+}
+```
 ## [StrokePointModel](./StrokePointModel.hpp)
-
+``` json
+{
+    "x":0,
+    "y":0,
+}
+```
 ---
 # 想要[返回](../README.md)？
