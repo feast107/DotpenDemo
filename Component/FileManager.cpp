@@ -41,7 +41,7 @@ void FileManager::Store(File f, QList<StrokeModel*> *strokes)
 
 void FileManager::Store(SignForm::Page *page)
 {
-    if(page->file.Exist() && page->storedIndex<page->strokeList->length()){
+    if(page->file.Exist() && ( page->storedIndex < page->strokeList->length())){
         QString content = "";
         bool empty = page->file.Length()==0;
         for(;page->storedIndex < page->strokeList->length();(page->storedIndex)++)

@@ -34,7 +34,8 @@ MainForm::MainForm(QWidget *parent) :
     });
     connect(m,&PenManager::OnWidthChanged,[=](int penThickness){
         ui->label_penThickness->setText(QString::number(penThickness,10));
-    });
+    }); 
+    ui->stackedWidget->setCurrentIndex(0);
 }
 
 MainForm::~MainForm()

@@ -358,7 +358,7 @@ void SignForm::ResetEvent()
         }
         P->strokeList->clear();
         strokeDrawer->repaint();
-        P->SetThumbnail(P->initialPic);
+        P->SetThumbnail(strokeDrawer->Export(P->GetInitialPage()));
     }
 }
 
@@ -423,7 +423,7 @@ void SignForm::Page::Finalize()
 
 void SignForm::Page::SetThumbnail(QPixmap *pic)
 {
-    if(pic!=NULL){
+    if(pic != NULL && pic != initialPic){
         delete currPic;
         currPic = NULL;
     }

@@ -86,6 +86,12 @@ class StrokeModel : public ModelBase
             ret.insert(STRING_MODEL_P,p);
             return ret;
         }
+
+        ~StrokeModel(){
+            if(pointList!=NULL){
+                delete pointList;
+            }
+        }
 };
 
 #endif // STROKEMODEL_HPP
