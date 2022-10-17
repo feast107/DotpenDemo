@@ -10,21 +10,21 @@ int ConnectTime = 0;
 
 void * ConnectPenThread(void * lpParameter)
 {
-        if(handle==NULL)
+    if(handle==NULL)
+    {
+        handle = Init();
+    }
+    if(handle!=NULL)
+    {
+        if(!PenManager::GetInstance()->IsConnected())
         {
-            handle = Init();
+            QtConcurrent::run([=]{
+                QThread::msleep(10);
+                while(!GetMCUCode(handle)){
+                }
+            });
         }
-        if(handle!=NULL)
-        {
-            if(!PenManager::GetInstance()->IsConnected())
-            {
-                QtConcurrent::run([=]{
-                    QThread::msleep(10);
-                    while(!GetMCUCode(handle)){
-                    }
-                });
-            }
-        }
+    }
 
 
 
@@ -45,7 +45,7 @@ void * ConnectPenThread(void * lpParameter)
     //    }else{
     //        GetMCUCode(handle);
     //    }
-      return 0;
+    return 0;
 }
 
 void InitCallBack()
