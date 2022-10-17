@@ -79,7 +79,7 @@
      ### Linux特性
     由于 `Linux` 下二进制构建可以决定动态链接库的搜索路径，可以在编译器选项中添加 `-Wl,rpath` 来指定库目录，那么在Qt项目文件 `PaperSign.pro` 中可以通过：
     ``` qt
-    QMAKE_LFLAGS += -Wl,rpath=./{ dir }
+    QMAKE_LFLAGS += -Wl,-rpath=./{ dir }
     ```
     来指定库目录
 

@@ -63,6 +63,7 @@ DEPENDPATH += $$PWD/Include
 INCLUDEPATH += $$PWD/../QtTool/Include
 DEPENDPATH += $$PWD/../QtTool/Include
 
+QMAKE_LFLAGS += -Wl,-rpath=./lib
 
 #在此修改宏以决定不同的链接
 DEFINES += x86
