@@ -1,0 +1,9 @@
+Package: dotpen
+Source: dotpen
+Version: 1.0.0
+Section: utils
+Maintainer: ZBH@zbform.cn
+Architecture: amd64
+Multi-Arch: foreign
+Description: Create by feast
+Essential: yes

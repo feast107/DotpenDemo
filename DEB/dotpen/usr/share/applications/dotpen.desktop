@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0.0
+Name=dotpen
+Name[zh_CN]=纸面签批
+StartupWMClass=dotpen
+Exec=/opt/zbform/Dotpen/Dotpen.sh
+Icon=/usr/share/icons/zbform/Dotpen/logo.png
+Comment=Create by Feast
+Terminal=false
+GenericName=dotpen
